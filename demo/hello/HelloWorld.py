@@ -1,2 +1,3 @@
-def say_hi():
-    print("Say hi with hello world!!")
+def say_hi(name=""):
+    # print("Say hi with hello world!!")
+    print("Say hi " + name)
