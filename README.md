@@ -7,30 +7,30 @@
 
 
 * Introduction to Python
-    * Installation
-    * Basic syntax
+    * [x] Installation
+    * [x] Basic syntax
     * Conditional
     * Looping
     * Function
     * Object Oriented Programming
 * Introduction to test library
-    * Static library
+    * [x] Static library
     * Dynamic library
     * Hybrid library
 * Create test library หรือ test module
-    * Test library names
-    * Arguments of test library
+    * [x] Test library names
+    * [x] Arguments of test library
     * Scope of test library 
     * Library version
-    * Document of library
+    * [x] Document of library
 * Create Keyword
-    * Method in python vs Keyword
-    * Keyword names
-    * Keyword tags
-    * Keyword arguments
-    * Default value of keywords
-    * Number of arguments
-    * Free keyword arguments
+    * [x] Method in python vs Keyword
+    * [x] Keyword names
+    * [x] Keyword tags
+    * [x] Keyword arguments
+    * [x] Default value of keywords
+    * [x] Number of arguments
+    * [x] Free keyword arguments
 * Communicate with Robotframework
     * Report keyword status
     * Stop test execution
@@ -38,7 +38,7 @@
     * Logging information
     * Return values
 * Distributing/Publish test library
-    * Documentation
+    * [x] Documentation
     * Testing
     * Packaging
     * Deprecate keywords
