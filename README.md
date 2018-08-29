@@ -1,4 +1,4 @@
-# course-advance-robotframework
+# Course Advance Robotframework
 
 * Basic of Python
 * Extending robotframework with Python
