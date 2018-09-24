@@ -1,3 +1,4 @@
+chromedriver
 .vscode/
 workshop/set/
 .DS_Store
@@ -6,3 +7,4 @@ workshop/set/
 *.html
 *.pyc
 *.key
+*.png

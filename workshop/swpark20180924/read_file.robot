@@ -7,7 +7,10 @@ Try to write dictionary data to csv file
     &{user_info}=  Create Dictionary
     ...  email=somkiat@gmail.com
     ...  mobile_no=0868696209
-    Write Data  ${user_info}
+    @{all data}=  Create List  
+    ...  ${user_info}  
+    ...  ${user_info}
+    Write Data  ${all data}
 
 Try to read from user.csv with for loop
     [Tags]  testing
