@@ -11,8 +11,20 @@
     * [x] Basic syntax
     * Conditional
     * Looping
-    * Function
-    * Object Oriented Programming
+    * [x] Function
+    * [x] Object Oriented Programming
+* Recap Robotframework
+  * Test template
+  * Page object pattern
+* Continuous Testing
+  * Working with [Jenkins](https://jenkins-ci.org/)
+    * Installation
+    * Create new job to testing with Robotframwork
+    * Create test report
+    * Workshop
+  * Scaing testing with Robotframework
+    * [Selenium Grid](https://www.seleniumhq.org/projects/grid/)
+    * [Pabot](https://github.com/mkorpela/pabot)Parallel Robotframework testing
 * Introduction to test library
     * [x] Static library
     * Dynamic library
