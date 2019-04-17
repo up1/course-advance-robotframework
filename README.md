@@ -2,6 +2,7 @@
 
 * Basic of Python
 * Extending robotframework with Python
+* Continuous Testing
 
 ## Outline
 
