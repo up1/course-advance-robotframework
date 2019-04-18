@@ -6,14 +6,6 @@
 
 ## Outline
 
-
-* Introduction to Python
-    * [x] Installation
-    * [x] Basic syntax
-    * Conditional
-    * Looping
-    * [x] Function
-    * [x] Object Oriented Programming
 * Recap Robotframework
   * Test template
   * Page object pattern
@@ -26,6 +18,13 @@
   * Scaing testing with Robotframework
     * [Selenium Grid](https://www.seleniumhq.org/projects/grid/)
     * [Pabot](https://github.com/mkorpela/pabot)Parallel Robotframework testing
+* Introduction to Python
+    * [x] Installation
+    * [x] Basic syntax
+    * Conditional
+    * Looping
+    * [x] Function
+    * [x] Object Oriented Programming
 * Introduction to test library
     * [x] Static library
     * Dynamic library
