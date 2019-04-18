@@ -17,7 +17,7 @@
     * Workshop
   * Scaing testing with Robotframework
     * [Selenium Grid](https://www.seleniumhq.org/projects/grid/)
-    * [Pabot](https://github.com/mkorpela/pabot)Parallel Robotframework testing
+    * [Pabot](https://github.com/mkorpela/pabot) Parallel Robotframework testing
 * Introduction to Python
     * [x] Installation
     * [x] Basic syntax
