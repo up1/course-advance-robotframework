@@ -57,3 +57,6 @@
 * Extending existing test library
     * Modify original source code of test library
     * Using inheritance
+    
+## Resources
+* https://github.com/up1/course-selenium-grid
