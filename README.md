@@ -60,3 +60,4 @@
     
 ## Resources
 * https://github.com/up1/course-selenium-grid
+* [How to publish your library to PyPi ?](https://github.com/up1/demo-helloworld-library)
