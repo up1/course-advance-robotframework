@@ -57,6 +57,12 @@
 * Extending existing test library
     * Modify original source code of test library
     * Using inheritance
+* [Microservices Testing](https://martinfowler.com/articles/microservice-testing/)
+    * Unit testing
+    * Integration testing
+    * Component testing
+    * Contract testing
+    * End-to-End testing
     
 ## Resources
 * https://github.com/up1/course-selenium-grid
