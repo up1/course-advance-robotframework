@@ -9,6 +9,7 @@
 * Recap Robotframework
   * Test template
   * Page object pattern
+  * Workshop with Robotframework
 * Continuous Testing
   * Working with [Jenkins](https://jenkins-ci.org/)
     * Installation
