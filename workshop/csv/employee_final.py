@@ -20,7 +20,7 @@ def add_employee(first_name, last_name):
 def list_employees():
     """
     Print the list of stored employees
-    :return: None
+    :return: []
     """
     employees_list = []
     if os.path.exists(EMPLOYEE_FILE):
@@ -30,7 +30,8 @@ def list_employees():
             for row in reader:
                 employees_list.append(' '.join(row))
 
-    print(employees_list)
+    # print(employees_list)
+    return employees_list
 
 
 def remove_all_employees():
