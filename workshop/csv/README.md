@@ -1,6 +1,6 @@
 # Workshop :: Working with CSV file
 
-## Step 1
+## Let's start
 * Create file `employees.csv`
 * Create file `employee.py`
 
@@ -47,3 +47,5 @@ $python employee.py list_employees
 $python employee.py add_employee <firstname> <lastname>
 $python employee.py remove_all_employees
 ```
+
+Try by your self or copy from `employee_final.py`
