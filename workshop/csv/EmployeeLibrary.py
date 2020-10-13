@@ -23,7 +23,29 @@ class EmployeeLibrary:
 
     @keyword
     def remove_all_employees(self):
+        """
+        Clear the list of employees.
+
+        Arguments: None
+
+        Examples:
+            Remove All Employees 
+        """
         if os.path.exists(self._path):
             os.remove(self._path)
         else:
             print("The file does not exist")
+
+    @keyword
+    def add_new_employee(self, firstname, lasname):
+        """
+        Add an employee.
+
+        Arguments:
+        - ''first_name:''           The first name of the employee to be added.
+        - ''last_name:''            The last name of the employee to be added.
+        
+        Examples:
+        | Add New Employee | somkiat | pui
+        """
+        pass
