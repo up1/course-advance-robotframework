@@ -3,6 +3,7 @@
 * Basic of Python
 * Extending robotframework with Python
 * Continuous Testing
+* Scaling testing (parallel and distributed testing)
 
 ## Outline
 
@@ -45,11 +46,11 @@
     * [x] Number of arguments
     * [x] Free keyword arguments
 * Communicate with Robotframework
-    * Report keyword status
-    * Stop test execution
-    * Continue test execution
-    * Logging information
-    * Return values
+    * [x] Report keyword status
+    * [x] Stop test execution
+    * [x] Continue test execution
+    * [x] Logging information
+    * [x] Return values
 * Distributing/Publish test library
     * [x] Documentation
     * Testing
