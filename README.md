@@ -4,6 +4,7 @@
 * Extending robotframework with Python
 * Continuous Testing
 * Scaling testing (parallel and distributed testing)
+* Working with Docker
 
 ## Outline
 
