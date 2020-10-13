@@ -6,6 +6,11 @@
 * Scaling testing (parallel and distributed testing)
 * Working with Docker
 
+## Workshop for thsi course
+* Hello
+* Manage data in file system (CSV)
+* More example ...
+
 ## Outline
 
 * Recap Robotframework
@@ -71,7 +76,7 @@
 * https://github.com/up1/course-selenium-grid
 * [How to publish your library to PyPi ?](https://github.com/up1/demo-helloworld-library)
 
-## List of workshop
+## List of past workshop
 * [Workshop :: 2019/07/18-19](https://github.com/up1/robot-swpark)
 
 
