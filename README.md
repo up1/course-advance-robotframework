@@ -6,7 +6,11 @@
 * Scaling testing (parallel and distributed testing)
 * Working with Docker
 
-## Workshop for thsi course
+# Slides
+* [Main slide](https://github.com/up1/course-advance-robotframework/blob/master/slide/SCK-ADVANCE-ROBOT-FRAMEWORK.pdf)
+* [Workshop slide](https://github.com/up1/course-advance-robotframework/blob/master/slide/SCK-WORKSHOP.pdf)
+
+## Workshop for this course
 * Hello
 * Manage data in file system (CSV)
 * More example ...
