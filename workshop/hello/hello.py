@@ -7,3 +7,7 @@ class Hello:
 
     def get_result(self):
         return 'Hi, %s' %(self._name)
+
+
+if __name__ == '__main__':
+    pass

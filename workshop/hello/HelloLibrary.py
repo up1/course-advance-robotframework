@@ -40,3 +40,6 @@ class HelloLibrary:
     def say_hi_all(self, **names):
         for name, value in names.items():
             print('%s = %s' % (name, value))
+
+if __name__ == '__main__':
+    pass
