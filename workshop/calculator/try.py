@@ -1,0 +1,1 @@
+print(str(eval('1+2')))
