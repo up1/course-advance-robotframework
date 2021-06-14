@@ -2,11 +2,14 @@ import csv
 
 
 def read(filename):
-    result = []
+    result = []  # List
     with open(filename) as csvfile:
         spamreader = csv.reader(csvfile)
         for row in spamreader:
-            result.append(row)
+            cs = {}  # Dictionary
+            cs['seq'] = row[0]
+            cs['keyword'] = row[1]
+            result.append(cs)
     return result
 
 
