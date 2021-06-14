@@ -4,14 +4,15 @@ Library    csv_library.py
 
 *** Test Cases ***
 Search data from google
-    ${keywords}=                Read                     keywords.csv
-    FOR                         ${keyword}               IN              @{keywords}
-    Search with '${keyword}'
+    ${keywords}=      Read                     keywords.csv
+    FOR               ${keyword}               IN              @{keywords}
+    Log To Console    ${keyword}[1]
+    # Search with '${keyword}'
     END
 
 *** Keywords ***
 Search with '${keyword}'
-    Open Browser                http://www.google.com    chrome
-    Input Text                  name:q                   ${keyword}
+    Open Browser      http://www.google.com    chrome
+    Input Text        name:q                   ${keyword}
 
 

@@ -6,8 +6,7 @@ def read(filename):
     with open(filename) as csvfile:
         spamreader = csv.reader(csvfile)
         for row in spamreader:
-            for c in row:
-                result.append(c)
+            result.append(row)
     return result
 
 
