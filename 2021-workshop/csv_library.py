@@ -2,12 +2,13 @@ import csv
 
 
 def read(filename):
+    result = []
     with open(filename) as csvfile:
         spamreader = csv.reader(csvfile)
         for row in spamreader:
             for c in row:
-                print(c, end='-')
-            print()
+                result.append(c)
+    return result
 
 
 def write(results, filename):
