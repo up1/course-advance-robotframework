@@ -17,5 +17,5 @@ def write(results, filename):
             spamwriter.writerow(row)
 
 
-input = [['somkiat1', 'pui1', 40], ['somkiat2', 'pui2', 40]]
-write(input, 'new.csv')
+# input = [['somkiat1', 'pui1', 40], ['somkiat2', 'pui2', 40]]
+# write(input, 'new.csv')
