@@ -8,7 +8,8 @@
 
 # Slides
 * [Main slide](https://github.com/up1/course-advance-robotframework/blob/master/slide/SCK-ADVANCE-ROBOT-FRAMEWORK.pdf)
-* [Workshop slide](https://github.com/up1/course-advance-robotframework/blob/master/slide/SCK-WORKSHOP.pdf)
+* [Working with Tools](https://github.com/up1/course-advance-robotframework/blob/master/slide/SCK-WORKSHOP-ROBOT-TOOLS.pdf)
+* [Create Library Workshop](https://github.com/up1/course-advance-robotframework/blob/master/slide/SCK-WORKSHOP.pdf)
 
 ## Workshop for this course
 * Hello
