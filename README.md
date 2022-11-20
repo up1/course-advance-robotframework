@@ -1,5 +1,5 @@
 # Course Advance Robotframework
-
+* Robotframework features
 * Basic of Python
 * Extending robotframework with Python
 * Continuous Testing
@@ -65,7 +65,6 @@
     * [x] Documentation
     * Testing
     * Packaging
-    * Deprecate keywords
 * Extending existing test library
     * Modify original source code of test library
     * Using inheritance
@@ -77,7 +76,8 @@
     * End-to-End testing
     
 ## Resources
-* https://github.com/up1/course-selenium-grid
+* [Course Robotframework](https://github.com/up1/course-robotframework)
+* [Selenium Grid](https://github.com/up1/course-selenium-grid)
 * [How to publish your library to PyPi ?](https://github.com/up1/demo-helloworld-library)
 * [Basic of Python course](https://www.w3schools.com/python/default.asp)
 
