@@ -1,4 +1,14 @@
 ## Robot framework workshop
+Install
+```
+$pip install robotframework
+$pip install robotframework-seleniumlibrary
+```
+
+Check library
+```
+$pip list
+```
 
 Run robot script
 ```
