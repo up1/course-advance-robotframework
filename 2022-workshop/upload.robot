@@ -18,8 +18,11 @@ Case 01
 	${result}=	Get Text	xpath://div[2]/div[2]/p
 	Should Be Equal     Queue length: 2     ${result}
 	Should Match Regexp	   ${result}	Queue length:${SPACE}\\d+
-	# Upload 1
-	# Upload 2
+	# Upload 1 => Click upload => //*[@id="ng-app"]/body/div/div[2]/div[2]/table/tbody/tr[1]/td[5]/button[1]
+	Click Element   xpath://table/tbody/tr[1]/td[5]/button[1]
+	# Check progress bar
+	Wait Until Element Is Visible 	xpath://div[@style="width: 50%;"]
+	
 
 
 # robot -v DATA_PATH:c:\\mydata  upload.robot
