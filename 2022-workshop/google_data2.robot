@@ -13,6 +13,7 @@ Success search flow
 	เข้าไปยังหน้าค้นหา
 	ค้นหา   ${input}
 	ต้องเจอข้อมูลของ   ${expected_result}
+	Go To   https://www.facebook.com
 
 
 ค้นหา
