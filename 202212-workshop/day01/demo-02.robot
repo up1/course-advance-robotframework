@@ -2,6 +2,7 @@
 Library    SeleniumLibrary
 Suite Setup      Open search page
 Suite Teardown   Close Browser
+Test Teardown    กลับไปหน้าแรก
 
 *** Variables ***
 ${MY_URL}    https://www.google.com/
@@ -19,6 +20,9 @@ Success with Search selenium
 	Check result
 
 *** Keywords ***
+กลับไปหน้าแรก
+	Go To   ${MY_URL}
+
 Open search page
 	Open Browser    ${MY_URL}
     ...   browser=${BROWSER_TYPE}
