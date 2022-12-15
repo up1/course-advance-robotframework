@@ -1,8 +1,10 @@
 *** Settings ***
 Library    SeleniumLibrary
-# Test Teardown    Close Browser
+Test Teardown    Close Browser
 
 *** Variables ***
+${MY_URL}    https://www.google.com/
+${BROWSER_TYPE}    chrome
 
 *** Test Cases ***
 Success with Search wikipedia
@@ -22,8 +24,8 @@ Check result with robot
     ...   ผลการค้นหาประมาณ
 
 Search with robot
-	Open Browser    https://www.google.com/
-    ...   browser=chrome
+	Open Browser    ${MY_URL}
+    ...   browser=${BROWSER_TYPE}
 	Maximize Browser Window
 	Input Text	  name:q   robot
 	Press Keys    name:q   RETURN
