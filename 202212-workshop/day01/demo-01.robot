@@ -10,14 +10,18 @@ ${BROWSER_TYPE}    chrome
 Success with Search robot
 	[Tags]  done  sprint01  feature_search
     Search with    robot
-	Check result with robot
+	Check result
 
 Success with Search selenium
 	[Tags]  testing  sprint02  feature_search
     Search with "selenium" and xxx
-	Check result with selenium
+	Check result
 
 *** Keywords ***
+Check result
+	Wait Until Element Contains   id:result-stats
+    ...   ผลการค้นหาประมาณ
+
 Search with "${keyword}" and xxx
 	Search with   ${keyword}
 
@@ -35,9 +39,6 @@ Should show detail at wikipedia
 	Click Element   
     ...   xpath://*[@id="rso"]/div[2]/div/div/div[1]/div/div/div[1]/div/a
 
-Check result with robot
-	Wait Until Element Contains   id:result-stats
-    ...   ผลการค้นหาประมาณ
 
 
 
