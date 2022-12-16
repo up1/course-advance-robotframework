@@ -1,5 +1,7 @@
 *** Settings ***
 Library   SeleniumLibrary
+Suite Setup     Open login page
+Test Teardown   Go to login page
 Test Template   Flow Login fail
 Default Tags    day2
 
@@ -15,7 +17,6 @@ Wrong password	 demo       MODE
 *** Keywords ***
 Flow Login fail
 	[Arguments]   ${user}   ${password}
-	Open login page
 	Fill in user="${user}" and password="${password}"
 	Should show error page
 
@@ -34,3 +35,6 @@ Fill in user="${user}" and password="${password}"
 Open login page
 	Open Browser   http://139.59.97.96:7272/   gc
 	Maximize Browser Window
+
+Go to login page
+	Go To   http://139.59.97.96:7272/
