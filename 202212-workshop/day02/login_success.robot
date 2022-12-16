@@ -11,7 +11,9 @@ Login success with user and password
 Should show welcome page
 	Wait Until Element Contains   xpath://*[@id="container"]/h1
    ...  Welcome Page  
-	Page Should Contain Link   xpath://*[@id="container"]/h1/a
+	Wait Until Element Contains   xpath://*[@id="container"]/p
+   ...  Login succeeded 
+	Page Should Contain Link   xpath://*[@id="container"]/p/a
 
 Fill in user="${user}" and password="${password}"
 	Input Text  id:username_field  ${user}
