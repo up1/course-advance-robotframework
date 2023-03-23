@@ -1,7 +1,9 @@
 # Course Advance Robotframework
 * Robotframework features
-* Basic of Python
+* Best pracice to write test cases
 * Extending robotframework with Python
+  * Basic of Python
+  * Write extension/library
 * Continuous Testing
 * Scaling testing (parallel and distributed testing)
 * Working with Docker
